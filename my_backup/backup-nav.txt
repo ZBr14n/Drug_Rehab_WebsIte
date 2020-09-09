@@ -1,0 +1,188 @@
+<main class="main">
+				<video class="main__video" autoplay muted loop="true">
+					<source type="video/mp4" src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/video.mp4'>
+				</video>
+				
+
+
+
+				<nav class="main__site-nav">
+					<ul class=".main__l-list">
+						<li class="list1">
+							<a href="http://" target="_blank" rel="noopener noreferrer">Rehabs</a>
+							
+						</li>
+
+						<li class="list2">
+							<a href="http://" target="_blank" rel="noopener noreferrer">Alcohol</a>
+							<ul class="subnav">
+								<li class="submenu">
+									<a href="http://">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa provident quibusdam amet modi aliquid neque similique fugit temporibus mollitia, recusandae optio ipsa, laboriosam tempore asperiores esse natus. Ipsam ipsum quam maiores eaque nesciunt hic sapiente? Architecto enim amet quis saepe at perspiciatis velit ab esse inventore, obcaecati ipsum ex consectetur quasi iste accusamus neque perferendis! Consectetur, veniam eum nulla iste dolor aliquid dolores voluptas doloremque. Explicabo omnis expedita dicta aut eaque nobis perferendis nemo perspiciatis veniam? Maxime molestiae alias ex!</a>									
+								</li>
+								<li class="submenu">
+									<a href="http://">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe obcaecati aliquid illo nemo molestiae velit. Minus cupiditate mollitia dolorem aspernatur.</a>									
+								</li>
+								<li class="submenu">
+									<a href="http://">submenu</a>									
+								</li>
+							</ul>							
+						</li>
+						<li class="list3">
+							<a href="http://" target="_blank" rel="noopener noreferrer">Benzodiazepines</a>
+							<ul class="subnav">
+								<li class="submenu">
+									<a href="http://">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga repellendus illo doloribus consequatur qui beatae saepe exercitationem dignissimos odio nam?</a>									
+								</li>
+								<li class="submenu">
+									<a href="http://">submenu</a>									
+								</li>
+								<li class="submenu">
+									<a href="http://">submenu</a>									
+								</li>
+							</ul>
+						</li>
+						<li class="list4">
+							<a href="http://" target="_blank" rel="noopener noreferrer">Opioids</a>
+							<ul class="subnav">
+								<li class="submenu">
+									<a href="http://">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa provident quibusdam amet modi aliquid neque similique fugit temporibus mollitia, recusandae optio ipsa, laboriosam tempore asperiores esse natus. Ipsam ipsum quam maiores eaque nesciunt hic sapiente? Architecto enim amet quis saepe at perspiciatis velit ab esse inventore, obcaecati ipsum ex consectetur quasi iste accusamus neque perferendis! Consectetur, veniam eum nulla iste dolor aliquid dolores voluptas doloremque. Explicabo omnis expedita dicta aut eaque nobis perferendis nemo perspiciatis veniam? Maxime molestiae alias ex!</a>									
+								</li>
+								<li class="submenu">
+									<a href="http://">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe obcaecati aliquid illo nemo molestiae velit. Minus cupiditate mollitia dolorem aspernatur.</a>									
+								</li>
+								<li class="submenu">
+									<a href="http://">submenu</a>									
+								</li>
+							</ul>
+						</li>
+						<li class="list5">
+							<a href="http://" target="_blank" rel="noopener noreferrer">Drugs</a>
+							<ul class="subnav">
+								<li class="submenu">
+									<a href="http://">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa provident quibusdam amet modi aliquid neque similique fugit temporibus mollitia, recusandae optio ipsa, laboriosam tempore asperiores esse natus. Ipsam ipsum quam maiores eaque nesciunt hic sapiente? Architecto enim amet quis saepe at perspiciatis velit ab esse inventore, obcaecati ipsum ex consectetur quasi iste accusamus neque perferendis! Consectetur, veniam eum nulla iste dolor aliquid dolores voluptas doloremque. Explicabo omnis expedita dicta aut eaque nobis perferendis nemo perspiciatis veniam? Maxime molestiae alias ex!</a>									
+								</li>
+								<li class="submenu">
+									<a href="http://">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe obcaecati aliquid illo nemo molestiae velit. Minus cupiditate mollitia dolorem aspernatur.</a>									
+								</li>
+								<li class="submenu">
+									<a href="http://">submenu</a>									
+								</li>
+							</ul>
+						</li>
+						
+						<li class="list6">
+							<a href="http://" target="_blank" rel="noopener noreferrer">Treatment</a>
+							<ul class="subnav">
+								<li class="submenu">
+									<a href="http://">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa provident quibusdam amet modi aliquid neque similique fugit temporibus mollitia, recusandae optio ipsa, laboriosam tempore asperiores esse natus. Ipsam ipsum quam maiores eaque nesciunt hic sapiente? Architecto enim amet quis saepe at perspiciatis velit ab esse inventore, obcaecati ipsum ex consectetur quasi iste accusamus neque perferendis! Consectetur, veniam eum nulla iste dolor aliquid dolores voluptas doloremque. Explicabo omnis expedita dicta aut eaque nobis perferendis nemo perspiciatis veniam? Maxime molestiae alias ex!</a>									
+								</li>
+								<li class="submenu">
+									<a href="http://">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe obcaecati aliquid illo nemo molestiae velit. Minus cupiditate mollitia dolorem aspernatur.</a>									
+								</li>
+								<li class="submenu">
+									<a href="http://">submenu</a>									
+								</li>
+							</ul>
+						</li>
+
+
+						<li class="list7">
+							<a href="http://" target="_blank" rel="noopener noreferrer">Family</a>
+							<ul class="subnav">
+								<li class="submenu">
+									<a href="http://">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa provident quibusdam amet modi aliquid neque similique fugit temporibus mollitia, recusandae optio ipsa, laboriosam tempore asperiores esse natus. Ipsam ipsum quam maiores eaque nesciunt hic sapiente? Architecto enim amet quis saepe at perspiciatis velit ab esse inventore, obcaecati ipsum ex consectetur quasi iste accusamus neque perferendis! Consectetur, veniam eum nulla iste dolor aliquid dolores voluptas doloremque. Explicabo omnis expedita dicta aut eaque nobis perferendis nemo perspiciatis veniam? Maxime molestiae alias ex!</a>									
+								</li>
+								<li class="submenu">
+									<a href="http://">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe obcaecati aliquid illo nemo molestiae velit. Minus cupiditate mollitia dolorem aspernatur.</a>									
+								</li>
+								<li class="submenu">
+									<a href="http://">submenu</a>									
+								</li>
+							</ul>
+						</li>
+						
+						
+						<li class="list8">
+							<a href="http://" target="_blank" rel="noopener noreferrer">Search</a>
+							<ul class="subnav">
+								<li class="submenu">
+									<a href="http://">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa provident quibusdam amet modi aliquid neque similique fugit temporibus mollitia, recusandae optio ipsa, laboriosam tempore asperiores esse natus. Ipsam ipsum quam maiores eaque nesciunt hic sapiente? Architecto enim amet quis saepe at perspiciatis velit ab esse inventore, obcaecati ipsum ex consectetur quasi iste accusamus neque perferendis! Consectetur, veniam eum nulla iste dolor aliquid dolores voluptas doloremque. Explicabo omnis expedita dicta aut eaque nobis perferendis nemo perspiciatis veniam? Maxime molestiae alias ex!</a>									
+								</li>
+								<li class="submenu">
+									<a href="http://">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe obcaecati aliquid illo nemo molestiae velit. Minus cupiditate mollitia dolorem aspernatur.</a>									
+								</li>
+								<li class="submenu">
+									<a href="http://">submenu</a>									
+								</li>
+							</ul>
+						</li>					
+						
+					</ul>
+				</nav>
+
+
+================================================================================
+
+
+.main{
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+
+.main__site-nav{
+  padding: 20px;
+  background-color: var(--blue-med) transparent;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+.main__site-nav ul{
+  position: relative;
+
+  display: flex;
+  justify-content: space-evenly;
+  
+
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  list-style-type: none;
+  
+}
+.main__site-nav ul > li{
+  position: relative;
+}
+.main__site-nav ul > li > .subnav{
+  display: none;
+  position: absolute;
+  left: 0;
+  /* padding: 10em; */
+  margin: 0 -10em;
+}
+.main__site-nav ul > li:hover > .subnav{
+  display: block;
+  /* position: absolute; */
+ 
+  z-index: 25;
+  height: 50vh;
+
+  /* width: 1500px;
+  height: 300px; */
+  background-color: #7ab0e5;
+  opacity: .7;
+  page-break-inside: avoid;
+}
+.main__site-nav ul > li:hover > .subnav > .submenu{
+  display: block;
+  float: left;
+  text-align: left;
+  page-break-inside: avoid;
+  
+  width: 50vw;
+}

@@ -1,0 +1,88 @@
+<?php
+/**
+ * Header file for the Twenty Twenty WordPress default theme.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty
+ * @since Twenty Twenty 1.0
+ */
+
+?><!DOCTYPE html>
+
+<html class="no-js" <?php language_attributes(); ?>>
+
+	<head>
+
+		<meta charset="<?php bloginfo( 'charset' ); ?>">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+		<link rel="profile" href="https://gmpg.org/xfn/11">
+		
+		
+
+	</head>
+
+	<body>
+
+
+
+
+ 
+		<header>
+			<div class="site-header">
+				<div class="site-web-image" ></div>
+				<div class="site-web-contact"></div>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/rehab-addiction.png" width="25%" />
+			</div>
+		
+			<nav>
+				<ul>
+					<li><a href="http://" target="_blank" rel="noopener noreferrer">Rehabs</a></li>
+					<li><a href="http://" target="_blank" rel="noopener noreferrer">Alcohol</a></li>
+					<li><a href="http://" target="_blank" rel="noopener noreferrer">Benzodiazepines</a></li>
+					<li><a href="http://" target="_blank" rel="noopener noreferrer">Opioids</a></li>
+					<li><a href="http://" target="_blank" rel="noopener noreferrer">Drugs</a></li>
+					<li><a href="http://" target="_blank" rel="noopener noreferrer">Treatment</a></li>
+					<li><a href="http://" target="_blank" rel="noopener noreferrer">Family</a></li>
+					<li><a href="http://" target="_blank" rel="noopener noreferrer">Search</a></li>
+				</ul>
+			</nav>
+
+			<div class="site-covid-alert">
+				<div class="covid-alert">COVID-19 Alert: Don't let the COVID-19 virus stop you from getting treatment.</div>
+				<button type="submit" class="get-treatment">Get Treatment Today</button>
+			</div>
+		</header>
+		
+
+		<section class="call-to-action">
+			<article>
+				<div></div>
+				<div></div>
+			</article>
+		</section>
+		
+		<section class="get-help-covid">
+			<h1>Get Help During COVID-19</h1>
+			<p></p>
+			<button class="find-out-more"></button>
+		</section>
+
+
+<section class="faq-container">
+	<article class="faq-wrapper">
+		<h3 class="faq-title"></h3>
+		<div class="box-1">box 1</div>
+		<div class="box-2">box 2</div>
+		<div class="box-3">box 3</div>
+		<div class="box-4">box 4</div>
+		<div class="box-5">box 5</div>
+		<div class="box-6">box 6</div>
+		<div class="box-7">box 7</div>
+		<div class="box-8">box 8</div>
+		<div class="box-9">box 9</div>
+	</article>
+</section>
+

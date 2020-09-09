@@ -1,0 +1,742 @@
+/*
+ Theme Name:   Twenty Twenty Child Theme
+ description: >-
+   A child theme of the Twenty Twenty default WordPress theme
+ Author:       Brian Lam
+ Template:     twentytwenty
+ Version:      1.0.0
+*/
+:root{
+  --blue-light: #7ab0e5;
+  --blue-med: #3b6ca8;
+  --blue-dark: #224979;
+  --newGold: #e1ae4c;
+  --grayDark: #373229;
+}
+
+header{
+  padding-top: 20px;
+  position: relative;
+
+}
+.site-header{  
+  display: flex;
+  justify-content: center;
+
+  
+  /* position: fixed;
+  top: 0;  
+  left: 0;  
+  right: 0; */
+}
+
+
+.site-web-image{  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  height: 120px;
+  width: 250px;
+  margin-right: 25%;
+}
+
+
+.site-web-contact{
+  display: flex;  
+  /* align-items: center; */
+
+}
+.site-web-contact > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  position: relative;
+}
+
+
+
+/* add spacing for the line separator */
+.contact-one{
+  margin: 0 50px;
+  align-items: center;
+
+}
+.contact-one-inner{
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 50px;  
+}
+
+
+
+.contact-one-inner > p{
+  line-height: 2px;
+}
+.contact-one-inner > p:nth-of-type(2){
+  font-size: .786em;
+}
+
+
+
+.site-web-contact > div:not(:last-child)::after{
+  content: '';
+  position: absolute;
+  right: -2px;
+  top: 25%;
+  width: 2px;
+  height: 50%;
+  
+}
+
+/* .site-web-contact .contact-one{
+  flex-basis: 35%;
+}
+.site-web-contact .contact-two{
+  font-size: 1.68em;
+} */
+
+
+
+/* main__nav styles */
+.main{
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+.main__nav{
+  padding: 20px;
+  background-color: rgba(0,0,0,.25) transparent;
+  /* opacity: .6; */
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.main__l-list{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+
+  position: relative;
+}
+
+
+.main__l-items > a{
+  list-style: none;
+  text-decoration: none;
+}
+
+/* initially hide the subnav until user hovers thr nav-route */
+.main__subnav{
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* when user hovers the nav-route, display the subnav */
+.main__l-items:hover > .main__subnav{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* flex-direction: column; */
+    
+  margin-top: 30px;
+  
+  z-index: 25;
+  background-color: rgba(0,0,0,.85);
+  width: 100vw;
+  height: 500px;
+}
+.main__define-drug{
+  flex-basis: 25%;  
+  position: relative;
+  top: 120px;
+  color: white;
+}
+
+
+.main__subnav-items{
+  list-style: none;
+}
+.main__subnav-items:nth-of-type(1)::before{
+  content: '';
+  border-left: 3px solid grey;
+  padding: 130px 10px;
+
+  position: absolute;
+  top: 20px;
+}
+
+/* when user hovers, subnest is the container of list-items */
+.main__subnav-subnest{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.main__subnav-items--subnest{
+  list-style: none;
+  padding: 5px 20px;  
+}
+.main__subnav-items--subnest > a{text-decoration: none;}
+
+
+
+/* nav styles end here */
+
+.site-covid-alert{
+  background-color: var(--blue-light);
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100vw;
+}
+.covid-alert{
+  padding: 0 30px;
+}
+
+
+#exclam-mark{
+  
+  height: 90px;
+  width: 90px;
+}
+
+
+
+
+
+/* video */
+.sunrise-video{
+  height: auto;
+  width: 100vw;
+
+  z-index: -50;
+  position: relative;
+}
+
+
+
+
+.call-action{
+  display: flex;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  z-index: 1;
+  
+  justify-content: center;
+  color: white;
+  
+}
+.call-action__left{
+  flex-basis: 50%;
+}
+
+.call-action__left > div:nth-of-type(1){
+  font-size: 2.68em;
+  font-weight: 900;
+}
+.call-action__left > div:nth-of-type(2){
+  width: 75%;
+}
+.call-action__right > div{  
+  padding: 7px;
+}
+
+
+
+
+.GetHelpCovid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #224979;  
+  position: relative;
+
+  
+}
+.GetHelpCovid__wrapper{
+  flex: 1;
+  margin: 0 50px;
+  margin-top: -120px;
+  margin-bottom: -70px;
+}
+.covid-help-wrapper{
+  margin: 0 auto;
+}
+.GetHelpCovid__image{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;  
+  
+  mask-image: linear-gradient(270deg,#000 40%,transparent);
+
+  width: 50vw;
+  height: 350px;
+  
+  /* width: 50vw;
+  padding: 190px 0; */
+  /* height: 25%; */
+}
+
+
+
+
+.faq__header{
+  color: var(--blue-med);
+  text-align: center;
+  margin-top: -50px;
+}
+.faq__wrapper{
+  display: flex;
+  justify-content: center;
+  margin: 0 90px;
+  margin-bottom: -50px;
+}
+.faq__article{
+  flex: 1;
+  padding: 20px;
+
+}
+.faq__box{
+  color: var(--blue-dark);
+  border: 1px solid rgb(221, 169, 169);  
+  padding: 20px;
+  margin: 20px;
+
+  box-shadow: 0 .125rem 2.5rem 2.125rem rgba(109, 99, 99, 0.25);;
+
+}
+
+
+
+
+
+
+/* treatment center styles */
+.treatment-center-container{
+  background-color: var(--blue-med);
+  text-align: center;
+}
+.treatment-center-container > .wrapper{
+  display: flex;
+  justify-content: center;
+  margin: 0 80px;
+}
+.treatment-center-container .wrapper > div{
+  margin: 10px;
+  flex: 1;
+
+}
+.treatment-center-container .wrapper > .treatment-center{
+  width: 25%;
+  height: auto;
+  /* width: 90px;
+  height: 360px; */
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* .treatment-center-container .wrapper article figure > img{
+  width: 300px;
+  height: 200px;
+} */
+.treatment-center-container .wrapper article > figure{
+  /* width: 300px;
+  height: 330px; */
+
+  
+  flex: 1;
+  margin: 10px;
+  background-color: white;
+  color: var(--blue-dark)
+}
+.view-more-listings{
+  margin-top: 50px;
+}
+
+
+
+
+/* drug name section */
+.drug-name-sect{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.drug-name-sect > .drug-container{
+  display: flex;
+  justify-content: center;
+}
+.drug-name-sect .drug-container > article{
+  width: 25%;
+  height: auto;
+  margin: 30px 10px;
+  border: 1px solid black;
+  box-shadow: 0 0 2rem 2rem grey;
+}
+.drug-name-sect .drug-container article > .drug-container__inner-wrap{
+  margin: 50px;
+}
+
+
+
+/* footer.php styles start below */
+.c-purpose-passion{
+  display: flex;
+  justify-content: center;
+}
+.c-purpose-passion > article{
+  flex: 1;
+
+}
+
+.c-purpose-passion__left-side{
+  background-color: var(--blue-med);
+  color: white;
+  text-align: center;
+  height: 50vh; 
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.c-purpose-passion__left-side--inner{
+  /* position: relative;
+  top: 25%; */
+}
+.c-purpose-passion__right-side-image{
+  height: 50vh;  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  mask-image: linear-gradient(270deg,#000 40%,transparent);
+}
+
+
+
+
+/* questions asked */
+.questions-asked > .question1{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+.question1__left-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.question1 > article{
+  flex: 1;
+  margin: 0 20px;
+}
+.question1__right-side{
+  max-width: 1000px;
+}
+
+/* line separtor */
+.class-separator{
+  width: 45%;
+}
+
+
+
+.questions-asked > .question2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 80px;
+}
+.question2 > article{
+  flex: 1;  
+  margin: 0 20px;
+}
+.question2__left-side{
+  max-width: 1000px;
+  /* height: 50vh; */
+}
+
+.question2__right-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.questions-asked > .question3{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+.question3__left-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.question3 > article{
+  flex: 1;
+  margin: 0 20px;
+}
+.question3__right-side{
+  max-width: 1000px;
+}
+
+
+
+.recreational-drug{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#e1ae4c;  
+
+}
+.recreational-drug__left-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#e1ae4c;
+  
+  height: 50vh;
+  mask-image:linear-gradient(90deg,#000 80%,transparent);
+}
+.recreational-drug > article{
+  flex: 1;
+}
+
+
+.recreational-drug__right-side{
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 50vh;
+  mask-image: linear-gradient(270deg,#000 80%,transparent);
+}
+
+
+
+.map-treatment-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: #e2e2e2; */
+  background-color: var(--blue-dark);
+  
+}
+.map-treatment-center__map{
+  margin: -200px 80px;
+}
+.map-treatment-center__text{
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+/* inpatient / outpatient */
+/* .map-treatment-center__map{
+  position: relative;
+} */
+.rehab-type{background-color: var(--blue-dark);}
+
+.rehab-type__wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  bottom: 250px;
+  
+  background-color: transparent;
+  z-index: 1;
+}
+.rehab-type__wrapper > .rehab-type__inpatient-rehab, .rehab-type__outpatient-rehab{
+  flex: 0 0 35%;
+
+  background-color: white;
+  border: 2px solid grey;
+
+  text-align: center;
+  padding: 20px;
+}
+.rehab-type__headerType{
+  text-align: center;
+}
+
+
+
+.opioid-epidemic{
+  background-color: var(--blue-dark);
+  text-align: center;
+  margin-top: -250px;
+}
+.opioid-epidemic__wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.opioid-epidemic__wrapper > article{
+  flex: 1;
+  /* width: 33.33%; */
+  padding: 20px;
+  background-color: white;
+  color: var(--blue-light);
+  border-top: 3px solid gold;
+  border: 1px solid black;
+  margin: 0 10px;
+}
+
+
+
+.rehab-payment{
+  background-color: var(--newGold);
+}
+.rehab-payment__wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+
+}
+.rehab-payment__wrapper > article{
+  flex: 1;
+  width: 50%;
+  margin: 0 20px;
+  color: white;
+}
+.rehab-payment__left-side > img{
+  width: 100%;
+  object-fit: contain;
+}
+
+
+
+/* footer */
+.footer{background-color: var(--grayDark);}
+.footer__routes .footer__l-list{
+  display: flex;
+  justify-content: space-evenly;
+  /* color: white; */
+}
+
+.footer__l-list > .l-list__items{
+  /* flex: 1 0 15%; */
+  list-style: none;
+  color: white;
+}
+
+.footer__l-list > a{
+  text-decoration: none;
+}
+
+
+
+.footer__social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__icons{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding-right: 120px;
+}
+.footer__icons .footer__l-list{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+
+
+.footer__icons .footer__l-list2{
+  display: flex;
+  list-style: none;
+  color: white;
+}
+
+
+
+.contact__wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: row; */
+}
+.contact__number{
+  margin: 0 20px;
+}
+.contact__number__phone-num{
+  height: auto;
+  width: 300px;
+}
+
+.contact__form{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+#contact__form_num{
+  text-align: center;
+}
+.contact__form_call{
+  height: auto;
+  width: 300px;
+}
+
+
+
+/* sponsor section */
+.sponsors{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsors > div{
+  flex: 0 0 25%;
+  margin: -50px 50px;
+  font-size: 12px;
+}
+
+.sponsors__right-side{
+  display: flex;
+  justify-content: center;
+  color: var(--newGold)
+}
+

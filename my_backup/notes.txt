@@ -1,0 +1,7 @@
+Where should the footer popup as the the user scrolls down
+
+(show)Get answers to your questions section - whe user scrolls below third row.
+(show)user enters The Opioid Epidemic section 
+
+
+
